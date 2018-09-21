@@ -1,13 +1,17 @@
 import React from 'react';
 import '../assets/css/app.css';
-import logo from '../assets/images/logo.svg';
+import emoji from '../assets/images/emoji.jpg';
+import Second from './second';
+import Third from './third';
 
 const App = () => (
     <div>
-        <div className="app">
-            <img src={logo} className="logo rotate"/>
-            <h1>Welcome to React</h1>
+        <div className="firstContainer">
+            <p className="firstP">-----Using style.css-----</p>
+            <img className="firstImg" src={emoji}/>
         </div>
+        <Second/>
+        <Third/>
     </div>
 );
 

@@ -1,0 +1,24 @@
+.firstContainer {
+    text-align: center;
+    display: block;
+    color: hotpink;
+    background-image: url('./bike.jpg');
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10%;
+}
+
+.firstImg {
+    width: 20%;
+    border: 10px dotted rgba(0, 102, 255, 0.692);
+    display: inline-block;
+    background: './img/img.jpg';
+}
+
+.firstP {
+    color: rgb(0, 140, 255);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    font-style: italic;
+}
