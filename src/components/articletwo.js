@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default (props) => {
-    return(
+export default props => (
+
         <div>
-            article two
+            <p>article two</p>
         </div>
-    );
-}
+
+)
